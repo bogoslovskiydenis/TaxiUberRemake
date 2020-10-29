@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/rider_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+       <Button
+           android:id="@+id/btn_phone_sign_in"
+           android:padding="1dp"
+           android:layout_marginBottom="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sign_in"
+           android:textColor="@color/black"
+           android:drawableLeft="@drawable/ic_baseline_phone_24"
+           />
+        <Button
+            android:id="@+id/btn_phone_google_sign_in"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_google_logo24"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
