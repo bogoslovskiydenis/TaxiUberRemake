@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TaxiUberRemake</string>
     <string name="sign_in">sign in</string>
+    <string name="register_text">Create your account</string>
+    <string name="first_name">First Name</string>
+    <string name="edt_phone">Phone Number</string>
+
 </resources>
